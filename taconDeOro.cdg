@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="taconDeOro">
+  <ClassDiagramComponents>
+    <Class name="Socio" package="" visibility="public" xPosition="47.0" yPosition="65.0">
+      <Fields>
+        <Field name="nombre_completo" type="String" visibility="private"/>
+        <Field name="correo_electronico" type="String" visibility="private"/>
+        <Field name="direccion" type="String" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="visualizarPedido" returnType="void" visibility="public"/>
+        <Method name="cancelarPedido" returnType="void" visibility="public"/>
+        <Method name="modificarDatos" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Pedido" package="" visibility="public" xPosition="47.0" yPosition="477.0">
+      <Fields>
+        <Field name="Fecha" type="Date" visibility="private"/>
+        <Field name="Total" type="Double" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="asignarDetalles" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Campania" package="" visibility="public" xPosition="897.0" yPosition="17.0">
+      <Fields>
+        <Field name="Temp_pri_ver" type="String" visibility="private"/>
+        <Field name="Temp_oto_ver" type="String" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="crearTemporada" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Firma" package="" visibility="public" xPosition="704.0" yPosition="157.0">
+      <Fields>
+        <Field name="propia" type="Boolean" visibility="private"/>
+        <Field name="nombre" type="String" visibility="private"/>
+        <Field name="CIF" type="String" visibility="private"/>
+        <Field name="domicilio" type="String" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="validarArticulos" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Articulos" package="" visibility="public" xPosition="410.0" yPosition="100.0">
+      <Fields>
+        <Field name="nombre" type="String" visibility="private"/>
+        <Field name="descripcion" type="String" visibility="private"/>
+        <Field name="material" type="String" visibility="private"/>
+        <Field name="color" type="String" visibility="private"/>
+        <Field name="precio" type="String" visibility="private"/>
+        <Field name="stock" type="boolean" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Zapatos" package="" visibility="public" xPosition="313.0" yPosition="356.0">
+      <Fields>
+        <Field name="numero" type="int" visibility="private"/>
+        <Field name="tipo" type="String" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Bolsos" package="" visibility="public" xPosition="489.0" yPosition="356.0">
+      <Fields>
+        <Field name="tipobandolera" type="String" visibility="private"/>
+        <Field name="tipomochila" type="String" visibility="private"/>
+        <Field name="tipofiesta" type="String" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Complementos" package="" visibility="public" xPosition="657.0" yPosition="356.0">
+      <Fields>
+        <Field name="tallacinturon" type="String" visibility="private"/>
+        <Field name="tallaguante" type="String" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Proveedores" package="" visibility="public" xPosition="1107.0" yPosition="167.0">
+      <Fields>
+        <Field name="nombre" type="String" visibility="private"/>
+        <Field name="CIF" type="String" visibility="private"/>
+        <Field name="domicilio" type="String" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="venderArticulos" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Administrativo" package="" visibility="public" xPosition="897.0" yPosition="565.0">
+      <Fields>
+        <Field name="nombre" type="String" visibility="private"/>
+        <Field name="CIF" type="String" visibility="private"/>
+        <Field name="domicilio" type="String" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="darbajaCampania" returnType="void" visibility="public"/>
+        <Method name="daraltaCampania" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Empleado" package="" visibility="public" xPosition="1121.0" yPosition="445.0">
+      <Fields>
+        <Field name="nombre" type="String" visibility="private"/>
+        <Field name="CIF" type="String" visibility="private"/>
+        <Field name="domicilio" type="String" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="revisarPedido" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Almacen" package="" visibility="public" xPosition="278.0" yPosition="551.0">
+      <Fields>
+        <Field name="paquete" type="String" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="esperarReparto" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Empresa Transporte" package="" visibility="public" xPosition="535.0" yPosition="551.0">
+      <Fields>
+        <Field name="nombre" type="String" visibility="private"/>
+        <Field name="CIF" type="String" visibility="private"/>
+        <Field name="domicilio" type="String" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="realizarReparto" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Ruta" package="" visibility="public" xPosition="331.0" yPosition="699.0">
+      <Fields>
+        <Field name="destino" type="String" visibility="private"/>
+        <Field name="fecha" type="Date" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="asignarRutas" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Incidencia" package="" visibility="public" xPosition="719.0" yPosition="699.0">
+      <Fields>
+        <Field name="descripcion" type="String" visibility="private"/>
+        <Field name="fecha" type="Date" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="crearIncidencias" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <UseRelation name="realiza" source="Socio" target="Pedido" sourceCardinality="1..*" targetCardinality="1..1"/>
+    <UseRelation name="gestiona" source="Campania" target="Administrativo" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <IsRelation name="is" source="Bolsos" target="Articulos"/>
+    <UseRelation name="revisa y cumplimenta" source="Pedido" target="Empleado" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation name="es" source="Pedido" target="Articulos" sourceCardinality="1..*" targetCardinality="1..1"/>
+    <IsRelation name="is" source="Complementos" target="Articulos"/>
+    <UseRelation name="pasa" source="Almacen" target="Empresa Transporte" sourceCardinality="1..*" targetCardinality="1..1"/>
+    <UseRelation name="organizan" source="Articulos" target="Campania" sourceCardinality="1..*" targetCardinality="1..1"/>
+    <UseRelation name="vende" source="Articulos" target="Firma" sourceCardinality="1..*" targetCardinality="1..*"/>
+    <UseRelation name="pasa" source="Pedido" target="Almacen" sourceCardinality="1..1" targetCardinality="1..*"/>
+    <UseRelation name="produce" source="Incidencia" target="Empresa Transporte" sourceCardinality="1..*" targetCardinality="1..1"/>
+    <IsRelation name="is" source="Zapatos" target="Articulos"/>
+    <UseRelation name="venden" source="Proveedores" target="Firma" sourceCardinality="1..*" targetCardinality="1..*"/>
+    <UseRelation name="tiene" source="Ruta" target="Empresa Transporte" sourceCardinality="1..*" targetCardinality="1..1"/>
+  </ClassDiagramRelations>
+</ClassDiagram>

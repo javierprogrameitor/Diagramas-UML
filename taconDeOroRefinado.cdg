@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="taconDeOroRefinado">
+  <ClassDiagramComponents>
+    <Class name="Articulos" package="" visibility="public" xPosition="569.0" yPosition="134.0">
+      <Fields>
+        <Field name="nombre" type="String" visibility="private"/>
+        <Field name="descripcion" type="String" visibility="private"/>
+        <Field name="material" type="String" visibility="private"/>
+        <Field name="color" type="String" visibility="private"/>
+        <Field name="precio" type="String" visibility="private"/>
+        <Field name="stock" type="Boolean" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Zapatos" package="" visibility="public" xPosition="360.0" yPosition="10.0">
+      <Fields>
+        <Field name="numero" type="int" visibility="private"/>
+        <Field name="tipo" type="String" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Bolsos" package="" visibility="public" xPosition="569.0" yPosition="5.0">
+      <Fields>
+        <Field name="bandolera" type="String" visibility="private"/>
+        <Field name="mochila" type="String" visibility="private"/>
+        <Field name="fiesta" type="String" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Complementos" package="" visibility="public" xPosition="766.0" yPosition="10.0">
+      <Fields>
+        <Field name="tallacinturon" type="String" visibility="private"/>
+        <Field name="tallaguante" type="String" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Empresa Tacon" package="" visibility="public" xPosition="569.0" yPosition="317.0">
+      <Fields>
+        <Field name="nombre" type="String" visibility="private"/>
+        <Field name="CIF" type="String" visibility="private"/>
+        <Field name="domicilio" type="String" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Campañas" package="" visibility="public" xPosition="858.0" yPosition="134.0">
+      <Fields>
+        <Field name="prim_ver" type="String" visibility="private"/>
+        <Field name="oto_iniv" type="String" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="crearTemporada" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Firmas" package="" visibility="public" xPosition="859.0" yPosition="329.0">
+      <Fields/>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Socios" package="" visibility="public" xPosition="224.0" yPosition="153.0">
+      <Fields/>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Pedidos" package="" visibility="public" xPosition="224.0" yPosition="317.0">
+      <Fields/>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Empresa Trans" package="" visibility="public" xPosition="569.0" yPosition="675.0">
+      <Fields/>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Ruta" package="" visibility="public" xPosition="360.0" yPosition="675.0">
+      <Fields/>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Incidencia" package="" visibility="public" xPosition="766.0" yPosition="675.0">
+      <Fields/>
+      <Constructors/>
+      <Methods/>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
